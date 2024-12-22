@@ -3,7 +3,7 @@
 # Fork from [imsyy](https://github.com/imsyy) 
 
 # **正在搭建中**
-## 预览： [Homepage](ecore.news)
+## 预览： [Homepage](https://ecore.news)
 
 > [!IMPORTANT]
 > ## 致大家
