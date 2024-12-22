@@ -2,8 +2,8 @@
 
 # Fork from [imsyy](https://github.com/imsyy) 
 
-# **Pasical正在搭建中**
-## 预览： ecore.news
+# **正在搭建中**
+## 预览： [Homepage](ecore.news)
 
 > [!IMPORTANT]
 > ## 致大家
