@@ -1,5 +1,5 @@
 <template>
-  <div class="more-content">您可在此编写任意内容</div>
+  <div class="more-content">2025年12月22日域名就到期了哦</div>
 </template>
 
 <style lang="scss" scoped>

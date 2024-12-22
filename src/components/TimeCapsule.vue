@@ -2,7 +2,7 @@
   <div class="time-capsule">
     <div class="title">
       <hourglass-full theme="two-tone" size="24" :fill="['#efefef', '#00000020']" />
-      <span>时光胶囊</span>
+      <span>进度条</span>
     </div>
     <div v-if="timeData" class="all-capsule">
       <div v-for="(item, tag, index) in timeData" :key="index" class="capsule-item">
