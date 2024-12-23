@@ -6,11 +6,12 @@
           <el-radio-group v-model="coverType" text-color="#ffffff" @change="radioChange">
             <el-radio value="0" size="large" border>默认壁纸</el-radio>
             <el-radio value="1" size="large" border>每日一图</el-radio>
-             <!-- 注释掉随机风景和随机动漫部分 -->
+            <!-- 注释掉随机风景和随机动漫部分 -->
             <!--
             <el-radio value="2" size="large" border>随机风景</el-radio>
             <el-radio value="3" size="large" border>随机动漫</el-radio>
             -->
+          </el-radio-group>
         </div>
       </el-collapse-item>
       <el-collapse-item title="个性化调整" name="2">
