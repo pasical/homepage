@@ -1,3 +1,5 @@
+/*弃用
+
 <template>
   <div class="weather" v-if="weatherData.adCode.city && weatherData.weather.weather">
     <span>{{ weatherData.adCode.city }}&nbsp;</span>
@@ -112,3 +114,5 @@ onMounted(() => {
   getWeatherData();
 });
 </script>
+
+*/

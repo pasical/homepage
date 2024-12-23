@@ -21,6 +21,8 @@
             :inactive-icon="CloseSmall"
           />
         </div>
+        <!-- 注释掉关于音乐点击是否打开面板的部分 -->
+        <!--
         <div class="item">
           <span class="text">音乐点击是否打开面板</span>
           <el-switch
@@ -30,6 +32,9 @@
             :inactive-icon="CloseSmall"
           />
         </div>
+        -->
+        <!-- 注释掉关于底栏歌词显示的部分 -->
+        <!--
         <div class="item">
           <span class="text">底栏歌词显示</span>
           <el-switch
@@ -39,6 +44,7 @@
             :inactive-icon="CloseSmall"
           />
         </div>
+        -->
         <div class="item">
           <span class="text">底栏背景模糊</span>
           <el-switch
@@ -49,6 +55,8 @@
           />
         </div>
       </el-collapse-item>
+      <!-- 注释掉播放器配置的部分 -->
+      <!--
       <el-collapse-item title="播放器配置" name="3">
         <div class="item">
           <span class="text">自动播放</span>
@@ -79,6 +87,7 @@
           </el-radio-group>
         </div>
       </el-collapse-item>
+      -->
       <el-collapse-item title="其他设置" name="4">
         <div>设置内容待增加</div>
       </el-collapse-item>
@@ -95,16 +104,26 @@ const store = mainStore();
 const {
   coverType,
   siteStartShow,
-  musicClick,
-  playerLrcShow,
+  // musicClick,
+  // playerLrcShow,
   footerBlur,
-  playerAutoplay,
-  playerOrder,
-  playerLoop,
+  // playerAutoplay,
+  // playerOrder,
+  // playerLoop,
 } = storeToRefs(store);
 
 // 默认选中项
 const activeName = ref("1");
+
+// 设置默认选项的初始值
+coverType.value = 1; // 默认选择“每日一图”
+siteStartShow.value = true; // 默认显示建站日期
+// musicClick.value = false; // 默认音乐点击不打开面板
+// playerLrcShow.value = true; // 默认显示底栏歌词
+footerBlur.value = true; // 默认底栏背景模糊
+// playerAutoplay.value = false; // 默认不自动播放
+// playerOrder.value = "list"; // 默认列表播放
+// playerLoop.value = "all"; // 默认列表循环
 
 // 壁纸切换
 const radioChange = () => {
