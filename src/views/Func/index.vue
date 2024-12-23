@@ -18,7 +18,7 @@
               <span class="sm-hidden">{{ currentTime.weekday }}</span>
             </div>
             <div class="text">
-              <span> {{ currentTime.hour }}:{{ currentTime.minute }}:{{ currentTime.second }}</span>
+              <span>{{ currentTime.hour }}:{{ currentTime.minute }}:{{ currentTime.second }}</span>
             </div>
           </div>
         </div>
@@ -47,17 +47,19 @@ const updateTimeData = () => {
   currentTime.value = getCurrentTime();
 };
 
+// 启动时钟更新
 onMounted(() => {
   updateTimeData();
   timeInterval.value = setInterval(updateTimeData, 1000);
 });
 
-onBeforeUnmount(() => {
+// 清除时钟更新
+onUnmounted(() => {
   clearInterval(timeInterval.value);
 });
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .function {
   height: 165px;
   display: flex;
@@ -144,5 +146,15 @@ onBeforeUnmount(() => {
       }
     }
   }
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date, .text {
+  margin: 10px 0;
 }
 </style>
