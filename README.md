@@ -2,7 +2,7 @@
 
 # Fork from [imsyy](https://github.com/imsyy) 
 
-# **正在搭建中**
+# ~~**正在搭建中**~~ 暂时停工 [预览](https://www.ecore.news)
 ## 预览： [Homepage](https://ecore.news)
 
 > [!IMPORTANT]
