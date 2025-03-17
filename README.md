@@ -1,9 +1,9 @@
 简体中文 | [English](./README_EN.md)
 
-# Fork from [imsyy](https://github.com/imsyy) 
+Fork from [imsyy](https://github.com/imsyy) 
 
-# ~~**正在搭建中**~~ 暂时停工 [预览](https://www.ecore.news)
-## 预览： [Homepage](https://ecore.news)
+~~**正在搭建中**~~ 暂时停工 [预览](https://homepage-iota-indol-15.vercel.app/)
+## 预览： [Homepage](https://homepage-iota-indol-15.vercel.app/)
 
 > [!IMPORTANT]
 > ## 致大家
